@@ -1,0 +1,180 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #FF5733;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.logo p {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+/* Navbar */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+/* Main Section */
+.container {
+    text-align: center;
+    padding: 40px;
+}
+
+.cta-button {
+    background-color: #FF5733;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px 0;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e14a1c;
+}
+
+/* Card */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+
+/* Categories */
+.categories {
+    padding: 40px;
+    background-color: #fff;
+}
+
+/* Flexbox Layout for Category Grid */
+.categories-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Category Item Styling */
+.category-item {
+    flex: 1 1 calc(33.33% - 20px); /* Ensures 3 items per row on larger screens */
+    background-color: #FF5733;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+    max-width: calc(22% - 20px); /* Prevents items from becoming too wide */
+}
+
+/* Image Fitting */
+.category-item img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Ensures images don't overflow */
+    object-fit: contain; /* Keeps images proportional */
+}
+
+/* Hover Effects */
+.category-item:hover {
+    transform: scale(1.05);
+    background-color: #e14a1c;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .category-item {
+        flex: 1 1 calc(30% - 20px); /* 2 items per row on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .category-item {
+        flex: 1 1 100%; /* 1 item per row on smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.footer .social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.footer .social-icons a {
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #FF5733;
+}

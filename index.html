@@ -1,68 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Soko2540 - E-commerce in East Africa</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Soko2540 - Shop quality goods costing up to 2540KES, honoring Kenya and Nairobi. Your trusted place for gifts, household items, and more.">
+    <meta name="keywords" content="Soko2540, e-commerce, Kenya, shopping, gifts, household">
+    <meta name="author" content="Soko2540 Team">
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'nonce-xyz123'; style-src 'self' 'nonce-abc456';"> -->
+    <title>Soko2540 - Shopping Moto Moto</title>
 
-        .container {
-            text-align: center;
-            max-width: 600px;
-            padding: 20px;
-        }
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-        .cta-button {
-            background-color: #FF5733;
-            color: #fff;
-            padding: 15px 30px;
-            font-size: 18px;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 30px;
-            display: inline-block;
-        }
+    <!-- Font Awesome Icons -->
+     
 
-        .card {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            margin-top: 30px;
-        }
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 
-        .card h2 {
-            color: #FF5733;
-        }
 
-        .card p {
-            color: #444;
-        }
-    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+
 </head>
 
 <body>
-    <div class="container">
-        <h1>Welcome to Soko2540</h1>
-        <p>Your go-to place for e-commerce in East Africa, Kenya.</p>
-        <a href="#" class="cta-button">Download App</a>
-
-        <div class="card">
-            <h2>What We Do</h2>
-            <p>1. Secure and fast transactions</p>
-            <p>2. Quality products at affordable prices</p>
-            <p>3. Local vendors, global reach</p>
+    <header class="header">
+        <div class="logo">
+            <h1>Soko2540</h1>
+            <p>Shopping Moto Moto</p>
         </div>
-    </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" title="Return to homepage">Home</a></li>
+                <li><a href="#categories" title="Browse item categories">Categories</a></li>
+                <li><a href="#about" title="Learn more about us">About</a></li>
+                <li><a href="#contact" title="Get in touch">Contact</a></li>
+                <li><a href="#cart" title="View your cart"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+                <li><button id="login-button" title="Login or sign up" aria-label="Login or Sign Up">Login</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="container">
+            <h1>Welcome to Soko2540</h1>
+            <p>Your go-to place Shopping Moto Moto.</p>
+            <p>Gifts, Accesories, Electronics aand much more ..</p>
+            <a href="#" class="cta-button" title="Download our app">Download App</a>
+
+          
+        </section>
+
+        <section id="categories" class="categories">
+            <h2>Explore Our Categories</h2>
+            <div class="categories-flex">
+                <div class="category-item" title="Shop Electronics">
+                    <img src="electronics.jpg" alt="Electronics">
+                    <span>Electronics</span>
+                </div>
+                <div class="category-item" title="Explore Clothing">
+                    <img src="clothing.jpg" alt="Clothing">
+                    <span>Clothing</span>
+                </div>
+                <div class="category-item" title="Browse Home Appliances">
+                    <img src="home-appliances.jpg" alt="Home Appliances">
+                    <span>Home Appliances</span>
+                </div>
+                <div class="category-item" title="Buy Gifts">
+                    <img src="gifts.jpg" alt="Gifts">
+                    <span>Gifts</span>
+                </div>
+                <div class="category-item" title="Shop Groceries">
+                    <img src="groceries.jpg" alt="Groceries">
+                    <span>Groceries</span>
+                </div>
+                <div class="category-item" title="Find Phone Accessories">
+                    <img src="phone.jpg" alt="Phone Accessories">
+                    <span>Phone Accessories</span>
+                </div>
+                <div class="category-item" title="Find Books">
+                    <img src="books.jpg" alt="Books">
+                    <span>Books</span>
+                </div>
+            </div>
+        </section>
+        
+        <div class="card">
+            <h2>Why? Soko2540? </h2>
+            <p><i class="fas fa-check-circle"></i>All goods capped @ KES 2540/= only!!</p>
+            <p><i class="fas fa-check-circle"></i> BEST ONLINE DEALS</p>
+          
+            <p><i class="fas fa-check-circle"></i> New products</p>
+            <p><i class="fas fa-check-circle"></i> Quality products</p>
+        </div>
+
+
+
+    </main>
+
+    <footer class="footer">
+        <h2>&copy; 2024 Soko2540. Mali safi, mali mpya, mali legit.</h2>
+        <ul class="social-icons">
+            <li><a href="https://facebook.com/Soko2540" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook">facebook</i></a></li>
+            <li><a href="https://twitter.com/Soko2540" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter">twitter</i></a></li>
+            <li><a href="https://instagram.com/Soko2540" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram">instagram</i></a></li>
+        </ul>
+    </footer>
+    
+
+
+    <!-- Netlify Identity Script -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+        document.getElementById('login-button').addEventListener('click', () => {
+            netlifyIdentity.open();
+        });
+
+        netlifyIdentity.on('login', user => {
+            console.log('Logged in as:', user.email);
+            // Code to dynamically load user-specific items here
+        });
+    </script>
 </body>
 
 </html>
