@@ -74,6 +74,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 20px auto;
+    text-align: center;
     max-width: 500px;
 }
 
@@ -88,7 +89,7 @@ body {
 .categories-flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -108,8 +109,9 @@ body {
 .category-item img {
     width: 100%;
     height: auto;
-    max-height: 150px; /* Ensures images don't overflow */
-    object-fit: contain; /* Keeps images proportional */
+    border-radius: 8px;    
+    max-height: 300px; /* Ensures images don't overflow */
+    object-fit: cover; /* Keeps images proportional */
 }
 
 /* Hover Effects */
