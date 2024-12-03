@@ -1,7 +1,3 @@
-Here’s a README.md file for your Soko2540 project using GitHub Pages and incorporating the technologies and features you’ve described.
-
-markdown
-Copy code
 # Soko2540
 
 **Soko2540** is a modern, lightweight e-commerce platform built using cutting-edge technologies, focusing on dynamic content, user management, and a seamless shopping experience. This project is deployed on **GitHub Pages**.
@@ -44,12 +40,8 @@ Copy code
    git clone https://github.com/your-username/soko2540.git
    cd soko2540
 Build the static files:
-bash
-Copy code
 npm run build
 Push the /dist folder to the gh-pages branch:
-bash
-Copy code
 git subtree push --prefix dist origin gh-pages
 Backend Deployment
 Follow the Strapi Deployment Guide for hosting.
@@ -73,31 +65,26 @@ Background: White (#FFFFFF)
 Icons:
 
 Add a like button:
-html
-Copy code
 <button class="like-btn">
   <span class="material-icons">thumb_up</span>
 </button>
 Include a rating star:
-html
-Copy code
 <span class="material-icons">star</span>
 Images:
 
 Use a CDN:
-html
-Copy code
-<img src="https://cdn.example.com/product1.jpg" alt="Product Name">
+<img src="https://cdn.example.com/logo.jpg" alt="Product Name">
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 📞 Contact
 For any inquiries or contributions, please reach out at your-email@example.com.
 
-vbnet
-Copy code
 
-This README includes details about the project, setup instructions, and deployment guides, along with specific highlights to make it visually appealing and functional. Let me know if you need additional customizations!
+
+
+
+
 
 
 
