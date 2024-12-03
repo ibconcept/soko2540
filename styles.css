@@ -83,6 +83,7 @@ body {
 .categories {
     padding: 40px;
     background-color: #fff;
+    text-align: center;
 }
 
 /* Flexbox Layout for Category Grid */
