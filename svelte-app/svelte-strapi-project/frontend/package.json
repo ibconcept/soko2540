@@ -1,0 +1,21 @@
+{
+  "name": "svelte-strapi-project",
+  "version": "1.0.0",
+  "description": "A Svelte frontend with a Strapi backend",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "svelte": "^3.44.0",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "vite": "^2.6.4",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

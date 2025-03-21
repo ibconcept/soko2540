@@ -1,0 +1,23 @@
+{
+  "name": "strapi-angular-project",
+  "version": "1.0.0",
+  "description": "Backend for Strapi and Angular project",
+  "main": "index.js",
+  "scripts": {
+    "develop": "strapi develop",
+    "build": "strapi build",
+    "start": "strapi start",
+    "test": "strapi test"
+  },
+  "dependencies": {
+    "strapi": "latest",
+    "strapi-plugin-users-permissions": "latest",
+    "strapi-plugin-email": "latest",
+    "strapi-plugin-upload": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

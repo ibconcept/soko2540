@@ -1,0 +1,26 @@
+{
+  "name": "svelte-strapi-project",
+  "version": "1.0.0",
+  "description": "Backend for Svelte application using Strapi",
+  "main": "index.js",
+  "scripts": {
+    "develop": "strapi develop",
+    "build": "strapi build",
+    "start": "strapi start"
+  },
+  "dependencies": {
+    "strapi": "4.x.x",
+    "strapi-plugin-content-type-builder": "4.x.x",
+    "strapi-plugin-users-permissions": "4.x.x"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "svelte",
+    "strapi",
+    "backend"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
